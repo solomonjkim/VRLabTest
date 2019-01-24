@@ -14,6 +14,7 @@ public class CubeController : MonoBehaviour
     void OnTriggerEnter(Collider other)
     {
         cubeRenderer.enabled = false;
+	//I did it
     }
 
     void OnTriggerExit(Collider other)
